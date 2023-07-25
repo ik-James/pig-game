@@ -162,7 +162,7 @@ p{
   }
   .btns {
     position: absolute;
-    margin-top: 65%;
+    margin-top: 70%;
     width:  90%;
     background-color: rgb(120, 75, 75);
     margin-left: 2%;
@@ -253,7 +253,7 @@ p{
     width: 45%;
     height: 70%;
     position: absolute;
-    bottom: -75%;
+    bottom: -55%;
   }
   .dice {
     border-radius: 15px;
@@ -267,9 +267,9 @@ p{
   }
   .rules{
     position: absolute;
-    top: 82%;
+    top: 73%;
     background-color: none;
-    margin-left: 7%;
+    margin-left: 2%;
     width: fit-content;
     width: 80%;
     padding-left: 10%;
