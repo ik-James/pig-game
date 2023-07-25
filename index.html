@@ -4,44 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Basic Calculator</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="game">
-        <div class="pgame--0 player--Active">
-            <h3>PLAYER 1</h3>
-            <p class="point--0">0</p>
-            <div class="score">
-                <p class="current">CURRENT</p>
-                <p class="newscore--0" id="newscore--0">0</p>
-            </div>
-        </div>
-        <div class="btns">
-            <button class="ngame"> NEW GAME</button>
-            <img src="dice-1.png" alt="" class="dice hidden">
-           
-            <button class="rdice">ROLL DICE</button>
-            <button class="hold">HOLD</button>
-        </div>
-
-        <div class="pgame--1">
-            <h3>PLAYER 2</h3>
-            <p class="point--1">0</p>
-            <div class="score">
-                <p class="current">CURRENT</p>
-                <p class="newscore--1" id="newscore--1">0</p>
-            </div>
-        </div>
-         <div class="rules">
-            <h3>Rules</h3>
-                <p>To win, a player must have scored up to 50 points</p>
-                <p>The first player to score up to 50 points wins</p>
-                <p>Your current ponts will be cleared if you roll 1</p>
-                <p>To avoid loosing points, click HOLD to retain current score</p>
+   <div class="calculator" id="calc">
+        <input type="text" id="result" readonly>
+        <div id="bgcolor">Mode</div>
+        <div class="buttons">
+            <button class="clear">C</button>
+            <button class="operator">/</button>
+            <button class="operator">*</button>
+            <button class="operator">-</button>
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator">+</button>
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="equals">=</button>
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="number">0</button>
+            <button class="decimal">.</button>
         </div>
     </div>
-
-    <script src="index.js"></script>
+    <script src="calc.js"></script>
 </body>
 </html>
