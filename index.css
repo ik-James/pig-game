@@ -166,7 +166,7 @@ p{
     width:  90%;
     background-color: rgb(120, 75, 75);
     margin-left: 2%;
-    height: 35%;
+    height: 30%;
     border-radius: 5px;
   }
   .player--Winner {
@@ -253,7 +253,7 @@ p{
     width: 45%;
     height: 70%;
     position: absolute;
-    bottom: 15%;
+    bottom: -75%;
   }
   .dice {
     border-radius: 15px;
