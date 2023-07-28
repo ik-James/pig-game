@@ -48,7 +48,7 @@
      grid-column-end: 5;
      background-color: blue;
      color: aliceblue;
-     height: 73%;
+     height: 91%;
  }
  
  @media all and (max-width: 550px) {
@@ -103,6 +103,8 @@
      grid-column-end: 5;
      background-color: blue;
      color: aliceblue;
+     height: 75%;
+
  }
  
  }
