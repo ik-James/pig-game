@@ -1,114 +1,108 @@
 .calculator{
-   width: 400px;
-   margin: 10vh auto 0 auto;
-   box-shadow: 2px 2px 100px gray;
-   padding: 25px;
-   border-radius: 10px;
-}
-#display{
-    text-align: right;
-    height: 50px;
-    line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
-    width: 65%;
-    background-color: rgb(212, 218, 224);
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 5px;
-    font-size: xx-large;
-    font-weight: 300;
-}
-.buttons{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-bottom: 1px solid burlywood;
-    border-left: 1px solid burlywood;
-    background-color: aliceblue;
-    border-radius: 5px;
-}
-.buttons > div{
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
-}
-.button{
-    line-height: 70px;
-    text-align: center;
-    font-size: 25px;
-    padding: 5px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    margin: 3px;
-}
-.button:hover, #equal:hover{
-    background-color: black;
-    color: aliceblue;
-    transition: 0.5s;
-}
-#equal{
-    grid-row-start: 4;
-    grid-row-end: 6;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    background-color: blue;
-    color: aliceblue;
-}
+    width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 2px 2px 100px gray;
+    padding: 25px;
+    border-radius: 10px;
+ }
+ #display{
+     text-align: right;
+     height: 50px;
+     line-height: 70px;
+     padding: 16px 8px;
+     font-size: 25px;
+     width: 95%;
+     background-color: rgb(212, 218, 224);
+     font-family: 'Times New Roman', Times, serif;
+     border-radius: 5px;
+     font-size: xx-large;
+     font-weight: 300;
+ }
+ .buttons{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     background-color: aliceblue;
+     border-radius: 5px;
+ }
+ 
+ .button{
+     line-height: 70px;
+     text-align: center;
+     font-size: 25px;
+     padding: 5px;
+     cursor: pointer;
+     border: none;
+     border-radius: 5px;
+     margin: 3px;
+     box-shadow: 3px 3px 30px gray;
+ }
+ .button:hover, #equal:hover{
+     background-color: black;
+     color: aliceblue;
+     transition: 0.5s;
+ }
+ #equal{
+     grid-row-start: 4;
+     grid-row-end: 6;
+     grid-column-start: 4;
+     grid-column-end: 5;
+     background-color: blue;
+     color: aliceblue;
+     height: 73%;
+ }
+ 
+ @media all and (max-width: 550px) {
+    .calculator{
+    width: 80%;
+    height: 60%;
+    margin: 10vh auto 0 auto;
+    box-shadow: 2px 2px 100px gray;
+    padding: 25px;
+    border-radius: 10px;
+ }
+ #display{
+     text-align: right;
+     height: 50px;
+     line-height: 70px;
+     padding: 16px 8px;
+     font-size: 25px;
+     width: 92%;
+     background-color: rgb(212, 218, 224);
+     font-family: 'Times New Roman', Times, serif;
+     border-radius: 5px;
+     font-size: xx-large;
+     font-weight: 300;
+ }
+ .buttons{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     background-color: aliceblue;
+     border-radius: 5px;
+ }
 
-@media all and (max-width: 550px) {
-   .calculator{
-   width: 80%;
-   margin: 10vh auto 0 auto;
-   box-shadow: 2px 2px 100px gray;
-   padding: 25px;
-   border-radius: 10px;
-}
-#display{
-    text-align: right;
-    height: 50px;
-    line-height: 70px;
-    padding: 16px 8px;
-    font-size: 25px;
-    width: 70%;
-    background-color: rgb(212, 218, 224);
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 5px;
-    font-size: xx-large;
-    font-weight: 300;
-}
-.buttons{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-bottom: 1px solid burlywood;
-    border-left: 1px solid burlywood;
-    background-color: aliceblue;
-    border-radius: 5px;
-}
-.buttons > div{
-    border-top: 1px solid gray;
-    border-right: 1px solid gray;
-}
-.button{
-    line-height: 70px;
-    text-align: center;
-    font-size: 25px;
-    padding: 5px;
-    cursor: pointer;
-    border: none;
-    border-radius: 5px;
-    margin: 3px;
-}
-.button:hover, #equal:hover{
-    background-color: black;
-    color: aliceblue;
-    transition: 0.5s;
-}
-#equal{
-    grid-row-start: 4;
-    grid-row-end: 6;
-    grid-column-start: 4;
-    grid-column-end: 5;
-    background-color: blue;
-    color: aliceblue;
-}
-
-}
+ .button{
+     height: 50%;
+     width: 65%;
+     text-align: center;
+     font-size: 25px;
+     padding: 5px;
+     padding-bottom: 10px;
+     cursor: pointer;
+     border: none;
+     border-radius: 5px;
+ }
+ .button:hover, #equal:hover{
+     background-color: black;
+     color: aliceblue;
+     transition: 0.5s;
+ }
+ #equal{
+     grid-row-start: 4;
+     grid-row-end: 6;
+     grid-column-start: 4;
+     grid-column-end: 5;
+     background-color: blue;
+     color: aliceblue;
+ }
+ 
+ }
