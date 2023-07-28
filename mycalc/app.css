@@ -1,5 +1,5 @@
 .calculator{
-   max-width: 400px;
+   width: 80%;
    margin: 10vh auto 0 auto;
    box-shadow: 2px 2px 100px gray;
    padding: 25px;
@@ -11,7 +11,7 @@
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
-    width: 383px;
+    width: 65%;
     background-color: rgb(212, 218, 224);
     font-family: 'Times New Roman', Times, serif;
     border-radius: 5px;
@@ -56,7 +56,7 @@
 
 @media all and (max-width: 550px) {
    .calculator{
-   max-width: 400px;
+   width: 80%;
    margin: 10vh auto 0 auto;
    box-shadow: 2px 2px 100px gray;
    padding: 25px;
@@ -68,7 +68,7 @@
     line-height: 70px;
     padding: 16px 8px;
     font-size: 25px;
-    width: 70%;
+    width: 65%;
     background-color: rgb(212, 218, 224);
     font-family: 'Times New Roman', Times, serif;
     border-radius: 5px;
