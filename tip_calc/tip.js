@@ -17,19 +17,19 @@ const demo = document.querySelector('.demo');
 
         totalTip.value = amount + (amount *  0.2);
         percent.value = 20;
-        demo.textContent = `Total payable amount is ${totalTip.value}`;
+        demo.textContent = `Total payable amount is ${totalTip.value}.`;
 
     } else if(amount > 100 && amount <= 1000){
         
         totalTip.value = amount + (amount *  0.15);
         percent.value = 15;
-        demo.textContent = `Total payable amount is ${totalTip.value}`;
+        demo.textContent = `Total payable amount is ${totalTip.value}.`;
 
     } else if (amount > 1000){
         
         totalTip.value = amount + (amount *  0.1);
         percent.value = 10;
-        demo.textContent = `Total payable amount: ${totalTip.value}`;
+        demo.textContent = `Total payable amount: ${totalTip.value}.`;
 
     } else if (amount <= 5) {
         demo.textContent = 'Enter a valid number';
