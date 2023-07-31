@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+.tip{
+    background-color: rgb(226, 237, 233);
+    margin-left: 35%;
+    margin-top: 100px;
+    width: 30%;
+    height: 370px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 3px 30px gray;
+}
+label{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10%;
+    margin-top: 30%;
+    font-size: large;
+}
+input{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15%;
+    margin-top: 2%;
+    font-size: large;
+    width: 70%;
+    height: max-content;
+    border-radius: 5px;
+}
+.btn{
+    margin-left: 65%;
+    color: aliceblue;
+    background-color: green;
+    height: 30px;
+    width: 20%;
+    border-radius: 4px;
+}
+.demo{
+    margin-left: 10%;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 35%;
+    font-size: large;
+}
+
+
+@media all and (max-width:500px){
+    *{
+    box-sizing: border-box;
+    }
+    .tip{
+        background-color: rgb(226, 237, 233);
+        margin-left: 10%;
+        margin-top: 50px;
+        width: 80%;
+        height: 370px;
+        border-radius: 8px;
+        border: none;
+        box-shadow: 3px 3px 30px gray;
+    }
+    label{
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 10%;
+        margin-top: 30%;
+        font-size: large;
+    }
+    input{
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 15%;
+        margin-top: 2%;
+        font-size: large;
+        width: 70%;
+        height: max-content;
+        border-radius: 5px;
+    }
+    .btn{
+        margin-left: 65%;
+        color: aliceblue;
+        background-color: green;
+        height: 30px;
+        width: 20%;
+        border-radius: 4px;
+    }
+    .demo{
+        margin-left: 10%;
+    }
+    h3{
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: 35%;
+        font-size: large;
+    }
+
+}
