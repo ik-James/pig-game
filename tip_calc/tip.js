@@ -13,7 +13,7 @@ const demo = document.querySelector('.demo');
 
 
 
-    if (amount < 100 && amount > 5){
+    if (amount <= 100 && amount > 5){
 
         totalTip.value = amount + (amount *  0.2);
         percent.value = 20;
